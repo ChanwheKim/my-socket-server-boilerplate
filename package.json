@@ -1,0 +1,33 @@
+{
+  "name": "socket-boilerplate",
+  "description": "socket-boilerplate",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "4.16.3",
+    "morgan": "^1.9.1",
+    "socket.io": "^2.1.1",
+    "uniqid": "^5.0.3"
+  },
+  "engines": {
+    "node": "8.11.3",
+    "yarn": "1.7.0"
+  },
+  "author": {
+    "name": "Chanwhe Kim"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "5.0.1",
+    "eslint-config-airbnb-base": "13.0.0",
+    "eslint-plugin-import": "2.13.0",
+    "nodemon": "1.17.5"
+  }
+}
